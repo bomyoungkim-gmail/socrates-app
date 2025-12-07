@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+
+# Docker
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+
+# Environment
+.env
+.env.*
+
+# Dependencies & Build
+node_modules
+npm-debug.log
+yarn-error.log
+.next
+dist
+build
+venv
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.coverage
+htmlcov
+
+# IDE / Systems
+.idea
+.vscode
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+task.md
+implementation_plan.md
+walkthrough.md
