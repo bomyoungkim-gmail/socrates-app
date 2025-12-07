@@ -171,8 +171,8 @@ def get_summary(doc_id: int, db: Session = Depends(get_db)):
     for s in stages:
         if s.suggested_vocab:
             total_vocab += len(s.suggested_vocab)
-        if s.cornell_notes:
-            cornell_notes.append(s.cornell_notes)
+        if s.cornell_note:
+            cornell_notes.append(s.cornell_note)
     
     # Ensure cornell notes are sorted by stage index implicitly via stages order
     
